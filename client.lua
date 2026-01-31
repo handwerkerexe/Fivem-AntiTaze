@@ -6,7 +6,7 @@ RegisterNetEvent('visual:checkTaze', function()
         print("Taze Player Detected")
     else
         if weapon == -1569615261 or weapon ~= 911657153 then
-            print("Spoofed Taze Player Detected")
+            print("Spoofed Taze Detected")
         end 
     end
 end)
